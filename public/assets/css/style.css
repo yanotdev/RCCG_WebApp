@@ -1,0 +1,203 @@
+.reg-input input[type="text"],
+.reg-input input[type="number"],
+.reg-input input[type="email"],
+.reg-input input[type="search"],
+.reg-input textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  text-transform: capitalize;
+  resize: vertical;
+}
+
+.reg-input select,
+.reg-input input[type="date"] {
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  padding: 10px 12px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+}
+
+.reg-panel {
+  padding: 10px 10px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  height: 575px;
+}
+
+.kid-form {
+  padding-right: 10px;
+  padding-left: 0px;
+}
+
+.kid-form input[type="text"],
+.kid-form input[type="date"],
+.kid-form select {
+  margin-top: 5px;
+}
+
+.kid-form select {
+  padding: 10px 10px;
+}
+
+.reg-button,
+.fkid-button {
+  border: 1px solid #002c6c;
+  display: inline-block;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #002c6c;
+  color: #f0efe6;
+}
+
+.reg-panel-2 {
+  border: 1px solid #f0efe6;
+  display: table;
+  text-align: center;
+  background-color: #008000;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.reg-panel-2 #center {
+  /* display: table-cell;
+  vertical-align: middle; */
+  color: #f0efe6;
+  margin-top: 10rem;
+}
+
+.nav-button {
+  padding: 5px 10px;
+  width: 50%;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.nav-button.inactive {
+  border: 1px solid #f0efe6;
+  color: #f0efe6;
+}
+
+.nav-button.inactive:hover {
+  background-color: #f0efe6;
+  color: #434f5b;
+}
+
+.nav-button.active {
+  background-color: #f0efe6;
+  color: #434f5b;
+}
+
+/* .details-table {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.details-table,
+.details-table th,
+.details-table td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.details-table th,
+.details-table td {
+  padding: 10px;
+  text-align: left;
+} */
+
+/* .details-table tr:nth-child(even) {
+  background-color: #eee;
+} */
+
+/* .details-table tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+.details-table th {
+  background-color: #434f5b;
+  color: white;
+} */
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+.modal {
+  z-index: 999999;
+}
+
+.kid-code-content {
+  /* width: 50%; */
+  width: 12%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.parent-details-content,
+.ret-resp-part-details {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 510px;
+  overflow-x: auto;
+}
+
+.ret-resp-part-details {
+  height: 400px;
+  padding: 40px 50px;
+}
+
+#save-reg:hover {
+  color: #f0efe6;
+}
+
+.children-list {
+  list-style: none;
+}
+
+.children-list li {
+  padding: 1px 5px;
+}
+
+.children-list li:hover {
+  background-color: lavender;
+  cursor: pointer;
+}
+
+.children-list-div {
+  max-height: 160px;
+  overflow-x: auto;
+  margin-bottom: 2rem;
+  border: 1px solid #ccc;
+  margin-right: 2rem;
+  border-radius: 4px;
+}
+
+.table {
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
